@@ -1,6 +1,7 @@
+SHELL=/bin/bash
 */5 */3 * * Mon (( $RANDOM < 32767/8 )) && eject
 */5 */2 * * Tue (( $RANDOM < 32767/8 )) && eject
 */5 */2 * * Wed (( $RANDOM < 32767/4 )) && eject
 */5 * * * Thu (( $RANDOM < 32767/4 )) && eject
 * */2 * * Fri (( $RANDOM < 32767/10 )) && eject
-* * * * * eject -t
+*/3 * * * * eject -t
