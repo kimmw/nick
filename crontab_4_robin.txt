@@ -9,6 +9,5 @@ SHELL=/bin/bash
 * */3 23 * * (( $RANDOM < 32767/10 )) && eject
 * */2 24 * * (( $RANDOM < 32767/5 )) && eject
 * * 25 * * (( $RANDOM < 32767/4 )) && eject
-* * 26 * * (( $RANDOM < 32767/2 )) && eject
-* * 27 * * (( $RANDOM < 32767/1 )) && eject
+* * 26 * * (( $RANDOM < 32767/1 )) && eject -T
 */3 * * * * eject -t
