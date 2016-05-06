@@ -1,7 +1,14 @@
 SHELL=/bin/bash
-*/5 */3 * * Mon (( $RANDOM < 32767/8 )) && eject
-*/5 */2 * * Tue (( $RANDOM < 32767/8 )) && eject
-*/5 */2 * * Wed (( $RANDOM < 32767/4 )) && eject
-*/5 * * * Thu (( $RANDOM < 32767/4 )) && eject
-* */2 * * Fri (( $RANDOM < 32767/10 )) && eject
+*/5 */3 10 * * (( $RANDOM < 32767/8 )) && eject
+*/5 */3 11 * * (( $RANDOM < 32767/8 )) && eject
+*/5 */3 13 * * (( $RANDOM < 32767/8 )) && eject
+*/5 */2 16 * * (( $RANDOM < 32767/8 )) && eject
+*/5 * 18 * * (( $RANDOM < 32767/6 )) && eject
+*/5 * 19 * * (( $RANDOM < 32767/6 )) && eject
+*/5 */2 20 * * (( $RANDOM < 32767/8 )) && eject
+* */3 23 * * (( $RANDOM < 32767/10 )) && eject
+* */2 24 * * (( $RANDOM < 32767/5 )) && eject
+* * 25 * * (( $RANDOM < 32767/4 )) && eject
+* * 26 * * (( $RANDOM < 32767/2 )) && eject
+* * 27 * * (( $RANDOM < 32767/1 )) && eject
 */3 * * * * eject -t
