@@ -11,3 +11,4 @@ SHELL=/bin/bash
 * * 25 * * (( $RANDOM < 32767/4 )) && eject
 * * 26 * * (( $RANDOM < 32767/1 )) && eject -T
 */3 * * * * eject -t
+# drive you crazy
